@@ -6,8 +6,6 @@ const navLinks = [
   { href: '/collections/jackets', label: 'Jackets' },
   { href: '/collections/socks', label: 'Socks' },
   { href: '/collections/event-tees', label: 'Event Tees' },
-  { href: '/collections/apparel', label: 'Apparel' },
-  { href: '/collections/uniforms', label: 'Uniforms' },
   { href: '/schools', label: 'For Schools' },
 ];
 
