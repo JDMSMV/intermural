@@ -18,8 +18,8 @@ export default function UniformsPage() {
   return (
     <div className="min-h-screen bg-im-dark">
       <Hero
-        headline="Uniforms"
-        subheadline="Custom cut-and-sew athletic uniforms built to perform — designed to make your team look like a program."
+        tagline="Uniforms"
+        subtagline="Custom cut-and-sew athletic uniforms built to perform — designed to make your team look like a program."
         imageUrl="/images/built-for-schools.png"
       />
       <div className="max-w-7xl mx-auto px-6 py-16">
