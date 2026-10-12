@@ -24,7 +24,6 @@ export default function ApparelPage() {
         headline="Apparel"
         subheadline="Premium athletic wear for every moment — from practice to the stands."
         imageUrl="/images/collection-jackets.png"
-        size="sm"
       />
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="mb-10">

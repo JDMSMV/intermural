@@ -21,7 +21,6 @@ export default function UniformsPage() {
         headline="Uniforms"
         subheadline="Custom cut-and-sew athletic uniforms built to perform — designed to make your team look like a program."
         imageUrl="/images/built-for-schools.png"
-        size="sm"
       />
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="mb-10 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
