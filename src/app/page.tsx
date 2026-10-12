@@ -21,6 +21,8 @@ const collections = [
   { name: 'Jackets', itemCount: 6, image: '/images/collection-jackets.png', href: '/collections/jackets' },
   { name: 'Socks', itemCount: 4, image: '/images/collection-socks.png', href: '/collections/socks' },
   { name: 'Event Tees', itemCount: 6, image: '/images/collection-event-tees.png', href: '/collections/event-tees' },
+  { name: 'Apparel', itemCount: 12, image: '/images/collection-jackets.png', href: '/collections/apparel' },
+  { name: 'Uniforms', itemCount: 8, image: '/images/built-for-schools.png', href: '/collections/uniforms' },
 ]
 
 export default function HomePage() {
