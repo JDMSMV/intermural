@@ -22,7 +22,7 @@ export default function ApparelPage() {
     <div className="min-h-screen bg-im-dark">
       <Hero
         tagline="Apparel"
-        subtagline="Premium athletic wear for every moment — from practice to the stands."
+        subheadline="Premium athletic wear for every moment — from practice to the stands."
         imageUrl="/images/collection-jackets.png"
       />
       <div className="max-w-7xl mx-auto px-6 py-16">
