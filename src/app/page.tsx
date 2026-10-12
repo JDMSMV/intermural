@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 }
 
 const featuredProducts = [
-  { name: 'Intramural Varsity Jacket', price: 'Starting at $185', image: '/images/collection-jackets.png', slug: 'intramural-varsity-jacket', tag: 'Bestseller' },
-  { name: 'Heavy Fleece Hoodie', price: 'Starting at $95', image: '/images/philosophy-fleece.png', slug: 'inter-mural-heavy-fleece-hoodie' },
-  { name: 'Signature Knee-High Sock', price: 'Starting at $24', image: '/images/collection-socks.png', slug: 'signature-knee-high-sock', tag: 'New' },
-  { name: 'Game Day Full-Zip Fleece', price: 'Starting at $110', image: '/images/collection-jackets.png', slug: 'game-day-full-zip-fleece' },
+  { name: 'Intramural Varsity Jacket', price: 'Starting at $185', image: '/images/featured-varsity-jacket.png', slug: 'intramural-varsity-jacket', tag: 'Bestseller' },
+  { name: 'Heavy Fleece Hoodie', price: 'Starting at $95', image: '/images/featured-fleece-hoodie.png', slug: 'inter-mural-heavy-fleece-hoodie' },
+  { name: 'Signature Knee-High Sock', price: 'Starting at $24', image: '/images/featured-knee-high-sock.png', slug: 'signature-knee-high-sock', tag: 'New' },
+  { name: 'Game Day Full-Zip Fleece', price: 'Starting at $110', image: '/images/featured-game-day-fleece.png', slug: 'game-day-full-zip-fleece' },
 ]
 
 const collections = [
