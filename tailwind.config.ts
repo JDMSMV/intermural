@@ -9,17 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'im-black': '#0d0d0d',
-        'im-deep': '#1a1a1a',
-        'im-cream': '#f5f0e8',
+        'im-black': '#ffffff',
+        'im-deep': '#faf9f7',
+        'im-dark': '#f5f3ef',
+        'im-cream': '#111111',
         'im-gold': '#c8a96e',
         'im-green': '#2d4a3e',
         'im-text-dark': '#111111',
-        'im-text-light': '#f5f5f5',
+        'im-text-light': '#111111',
         'im-muted': '#888888',
+        'im-text-muted': '#aaaaaa',
+        'im-border': '#e5e7eb',
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'Inter', 'sans-serif'],
+        serif: ['var(--font-cormorant)', 'Cormorant Garamond', 'Georgia', 'serif'],
       },
       letterSpacing: {
         'widest-2': '0.15em',

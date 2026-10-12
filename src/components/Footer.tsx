@@ -20,13 +20,13 @@ const connectLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0d0d0d] border-t border-white/5 pt-16 pb-10">
+    <footer className="bg-[#faf9f7] border-t border-black/5 pt-16 pb-10">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
         {/* Top grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8 mb-14">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-[#f5f5f5] mb-4">
+            <p className="text-[11px] uppercase tracking-[0.18em] text-[#111111] mb-4">
               Inter Mural
             </p>
             <p className="text-[11px] text-[#888] font-light leading-relaxed max-w-[180px]">
@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-3">
+        <div className="border-t border-black/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-[9px] uppercase tracking-[0.15em] text-[#555]">
             © 2024 Inter Mural. All rights reserved.
           </p>

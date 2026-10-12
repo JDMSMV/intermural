@@ -37,14 +37,14 @@ export default function HomePage() {
       />
 
       {/* Featured Products */}
-      <section className="py-24 lg:py-40 bg-im-black">
+      <section className="py-24 lg:py-40 bg-white">
         <div className="max-w-content mx-auto px-6 lg:px-12">
           <div className="flex items-end justify-between mb-12 lg:mb-16">
             <div>
               <p className="text-im-gold text-xs uppercase tracking-widest-2 mb-3 font-medium">Featured</p>
-              <h2 className="text-3xl md:text-4xl font-light text-im-text-light uppercase" style={{ letterSpacing: '0.06em' }}>Most Wanted</h2>
+              <h2 className="text-3xl md:text-4xl font-serif font-light text-[#111111] uppercase" style={{ letterSpacing: '0.06em' }}>Most Wanted</h2>
             </div>
-            <Link href="/collections/jackets" className="hidden md:block text-xs uppercase tracking-widest text-im-gold border-b border-im-gold pb-0.5 hover:text-im-text-light hover:border-im-text-light transition-colors duration-200">
+            <Link href="/collections/jackets" className="hidden md:block text-xs uppercase tracking-widest text-im-gold border-b border-im-gold pb-0.5 hover:text-[#111111] hover:border-im-text-light transition-colors duration-200">
               View All
             </Link>
           </div>
@@ -64,11 +64,11 @@ export default function HomePage() {
       />
 
       {/* Collections */}
-      <section className="py-24 lg:py-40 bg-im-black">
+      <section className="py-24 lg:py-40 bg-white">
         <div className="max-w-content mx-auto px-6 lg:px-12">
           <div className="mb-12 lg:mb-16">
             <p className="text-im-gold text-xs uppercase tracking-widest-2 mb-3 font-medium">Collections</p>
-            <h2 className="text-3xl md:text-4xl font-light text-im-text-light uppercase" style={{ letterSpacing: '0.06em' }}>Shop by Category</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-light text-[#111111] uppercase" style={{ letterSpacing: '0.06em' }}>Shop by Category</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {collections.map((col) => <CollectionCard key={col.name} {...col} />)}
@@ -77,13 +77,13 @@ export default function HomePage() {
       </section>
 
       {/* Built for Schools */}
-      <section className="py-24 lg:py-40 bg-im-deep border-y border-white/10">
+      <section className="py-24 lg:py-40 bg-im-deep border-y border-black/10">
         <div className="max-w-content mx-auto px-6 lg:px-12 text-center">
           <p className="text-im-gold text-xs uppercase tracking-widest-2 mb-6 font-medium">Built for Schools</p>
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-im-text-light uppercase leading-none mb-8 mx-auto max-w-3xl" style={{ letterSpacing: '0.06em' }}>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-[#111111] uppercase leading-none mb-8 mx-auto max-w-3xl" style={{ letterSpacing: '0.06em' }}>
             Premium materials. Expert design. Built for your school.
           </h2>
-          <p className="text-im-text-light/50 font-light text-base max-w-lg mx-auto mb-12">
+          <p className="text-[#111111]/50 font-light text-base max-w-lg mx-auto mb-12">
             We work directly with schools on a pre-order model — no inventory risk, no minimums that hurt. Just premium product your students will actually want to wear.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14 text-left max-w-3xl mx-auto">
@@ -92,9 +92,9 @@ export default function HomePage() {
               { label: 'Expert Design', desc: 'Our team handles everything from concept to final artwork.' },
               { label: 'Pre-Order Model', desc: 'Zero inventory risk. We only produce what is ordered.' },
             ].map((item) => (
-              <div key={item.label} className="border-t border-white/10 pt-6">
+              <div key={item.label} className="border-t border-black/10 pt-6">
                 <p className="text-im-gold text-xs uppercase tracking-widest mb-3 font-medium">{item.label}</p>
-                <p className="text-im-text-light/50 text-sm font-light leading-relaxed">{item.desc}</p>
+                <p className="text-[#111111]/50 text-sm font-light leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -108,12 +108,12 @@ export default function HomePage() {
       <section className="py-24 lg:py-32 bg-im-black">
         <div className="max-w-content mx-auto px-6 lg:px-12 text-center">
           <p className="text-im-gold text-xs uppercase tracking-widest-2 mb-4 font-medium">Waitlist</p>
-          <h2 className="text-3xl md:text-5xl font-light text-im-text-light uppercase mb-4" style={{ letterSpacing: '0.06em' }}>Be First.</h2>
-          <p className="text-im-text-light/50 font-light text-sm mb-10 max-w-sm mx-auto">
+          <h2 className="text-3xl md:text-5xl font-light text-[#111111] uppercase mb-4" style={{ letterSpacing: '0.06em' }}>Be First.</h2>
+          <p className="text-[#111111]/50 font-light text-sm mb-10 max-w-sm mx-auto">
             Join the waitlist for early access to new collections, school drops, and limited collabs.
           </p>
           <form className="flex gap-0 max-w-md mx-auto">
-            <input type="email" placeholder="your@school.edu" className="flex-1 bg-im-deep border border-white/20 border-r-0 px-5 py-4 text-im-text-light text-sm font-light placeholder-im-text-light/30 focus:outline-none focus:border-im-gold transition-colors duration-200" />
+            <input type="email" placeholder="your@school.edu" className="flex-1 bg-im-deep border border-black/20 border-r-0 px-5 py-4 text-[#111111] text-sm font-light placeholder-im-text-light/30 focus:outline-none focus:border-im-gold transition-colors duration-200" />
             <button type="submit" className="bg-im-gold text-im-black text-xs uppercase tracking-widest px-6 py-4 font-medium hover:bg-im-gold/90 transition-colors duration-200 whitespace-nowrap">Join</button>
           </form>
         </div>
