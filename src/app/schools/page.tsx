@@ -36,7 +36,7 @@ export default function SchoolsPage() {
         ctaSecondary={{ label: 'How It Works', href: '#process' }}
         height="partial"
         align="center"
-        imageUrl="/images/hero-1.png"
+        imageUrl="/images/built-for-schools.png"
       />
 
       {/* Value Props */}
