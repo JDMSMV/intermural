@@ -7,7 +7,7 @@ import EditorialSection from '@/components/EditorialSection'
 
 export const metadata: Metadata = {
   title: 'Inter Mural — Wear the School. Own the Story.',
-  description: 'Premium high school spirit wear and custom uniforms. Kith-inspired athletic luxury for champions.',
+  description: 'Premium high school spirit wear and custom uniforms. Athluxury spirit wear for champions.',
 }
 
 const featuredProducts = [
@@ -28,7 +28,7 @@ export default function HomePage() {
     <>
       <Hero
         tagline="Wear the School. Own the Story."
-        subheadline="Premium school spirit wear built for champions. Kith-inspired athletic luxury — designed for your school, built to last."
+        subheadline="Premium school spirit wear built for champions. Premium athletic luxury — designed for your school, built to last."
         ctaPrimary={{ label: 'Shop Collections', href: '/collections/jackets' }}
         ctaSecondary={{ label: 'For Schools', href: '/schools' }}
         backgroundImage="/images/hero-1.png"
